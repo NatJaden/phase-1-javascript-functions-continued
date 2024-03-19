@@ -26,7 +26,7 @@ describe("index.js", () => {
 
     it("permits the default activity to be overriden", function() {
       expect(mondayWork("work from home")).to.equal("This Monday, I will work from home.")
-    })
+    })  
   })
 
   describe("defines wrapAdjective function according to the specification", function() {
